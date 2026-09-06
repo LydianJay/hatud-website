@@ -195,7 +195,7 @@ export default function LandingPage() {
           </p>
 
           {/* App Download Buttons */}
-          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <a
               href="#"
               className="w-full sm:w-auto flex items-center justify-center gap-3 bg-white text-slate-900 hover:bg-slate-100 px-6 py-3.5 rounded-2xl font-bold shadow-xl transition-all hover:-translate-y-0.5"
@@ -228,7 +228,7 @@ export default function LandingPage() {
                 </div>
               </div>
             </a>
-          </div> */}
+          </div>
 
           {/* Social Links */}
           <div className="flex items-center justify-center gap-3 text-slate-300 text-sm">
