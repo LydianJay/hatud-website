@@ -7,16 +7,18 @@ import "../node_modules/@fortawesome/fontawesome-free/js/all.min.js";
 import './index.css'
 import LandingPage from './pages/LandingPage';
 import Legalities from './pages/Legalities.jsx';
-
+import ErrorPage from './pages/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LandingPage />,
+    element: <ErrorPage />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/legalities",
-    element: <Legalities />,
+    element: <ErrorPage />,
+    errorElement: <ErrorPage />,
   },
 ]);
 
