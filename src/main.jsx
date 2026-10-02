@@ -12,12 +12,12 @@ import ErrorPage from './pages/ErrorPage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <ErrorPage />,
+    element: <LandingPage />,
     errorElement: <ErrorPage />,
   },
   {
     path: "/legalities",
-    element: <ErrorPage />,
+    element: <Legalities />,
     errorElement: <ErrorPage />,
   },
 ]);
